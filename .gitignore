@@ -1,0 +1,16 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+
+# Power BI temporary or backup files
+*.pbix1
+*.backup
+
+
+# Mac
+.DS_Store
+
+
+# Node (if you ever add web assets)
+node_modules/
