@@ -1,0 +1,126 @@
+# 📊 Call Center Power BI Dashboard
+
+This repository contains the **Call Center Analysis Dashboard** built in **Power BI**. The dashboard provides insights into call volumes, response efficiency, call durations, customer sentiment, and more.
+
+It includes KPIs, charts, data modeling steps, and supporting documentation for anyone who wants to understand or replicate the project.
+
+---
+
+## 🚀 **Project Overview**
+
+The Call Center Dashboard analyzes customer call interactions over a specified period. It helps businesses understand:
+
+* How many calls are being received
+* How much time agents spend on calls
+* Customer sentiment trends
+* Reasons for calls
+* Performance of different call centers
+* Efficiency in responding within SLA
+
+---
+
+## 📌 **Key KPIs Displayed**
+
+1. **Total Number of Calls** – Total calls received in the selected period.
+2. **Total Call Duration (Hours)** – Total time agents spent across calls.
+3. **Total Call Duration (Minutes)** – Same metric but in minutes for granularity.
+4. **Average Call Duration (Minutes)** – Average handling time per call.
+5. **Response Time Percentage** – % of calls answered within predefined SLA.
+
+---
+
+## 📈 **Charts Included in the Dashboard**
+
+1. **Total Calls by Day** – Column Chart
+2. **Total Calls by State** – Filled Map Chart
+3. **Top Reasons for Calls** – Tree Map
+4. **Total Calls by Channel** – Donut Chart
+5. **Total Calls by Sentiment** – Column Chart
+6. **Total Calls by Call Centre** – Bar Chart
+
+---
+
+## 🛠️ **Functionalities Learned (Power BI Skills Used)**
+
+* Connecting to SQL Server
+* Data Cleaning & Data Processing
+* Data Modelling (Relationships, Fact/Dimension Tables)
+* Power Query Transformations
+* Creating Date Tables
+* Time Intelligence Functions
+* DAX (SUM, SUMX, AVERAGE, CALCULATE, FILTER, etc.)
+* Creating KPIs & Cards
+* Custom Charts & Visual Formatting
+* Page Navigation
+
+---
+
+## 📂 **Repository Structure**
+
+```
+call-center-powerbi/
+│
+├── README.md                # This file
+├── pbix/                    # Power BI dashboard file
+│   └── CallCenterDashboard.pbix
+├── data/                    # Sample dataset (if applicable)
+├── screenshots/             # Dashboard screenshots
+├── docs/                    # Additional documentation
+│   ├── DATA.md              # Dataset schema
+│   ├── DAX_MEASURES.md      # DAX formulas used
+│   └── UPLOAD_STEPS.md      # How to upload to GitHub
+└── assets/                  # Icons/branding (optional)
+```
+
+---
+
+## 📥 **How to Use the PBIX File**
+
+1. Download the `.pbix` file from the `pbix/` folder.
+2. Open it using **Power BI Desktop**.
+3. Load data or connect to your own SQL/CSV.
+4. Refresh visuals and explore the report.
+
+---
+
+## 📸 **Dashboard Screenshots**
+
+Screenshots included in the `screenshots/` folder:
+
+* Home Page (KPIs)
+* Charts Page
+* Functionalities Overview
+
+---
+
+## 📝 **About the Data**
+
+The data includes call-related fields such as call time, duration, sentiment, channel, state, reasons, and SLA response.
+See `docs/DATA.md` for full column definitions.
+
+---
+
+## 🧮 **Important DAX Measures**
+
+Detailed formulas are provided in `docs/DAX_MEASURES.md`.
+
+---
+
+## 📘 **How to Upload This Project to GitHub**
+
+Full step-by-step guide available in `docs/UPLOAD_STEPS.md`.
+
+---
+
+## 📄 License
+
+MIT License (or your preferred license).
+
+---
+
+## 👤 Author
+
+**Amisha**
+
+
+
